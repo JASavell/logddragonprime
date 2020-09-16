@@ -214,7 +214,7 @@ if ($op == "") {
 		"emailpetitions"=>"Should submitted petitions be emailed to Admin Email address?,bool",
 		"Enter languages here like this: `i(shortname 2 chars) comma (readable name of the language)`i and continue as long as you wish,note",
 		"serverlanguages"=>"Languages available on this server",
-		"defaultlanguage"=>"Default Language,enum,".getsetting("serverlanguages","en,English,fr,Français,dk,Danish,de,Deutsch,es,Español,it,Italian"),
+		"defaultlanguage"=>"Default Language,enum,".getsetting("serverlanguages","en,English,fr,FranÃ§ais,dk,Danish,de,Deutsch,es,EspaÃ±ol,it,Italian"),
 		"edittitles"=>"Should DK titles be editable in user editor,bool",
 		"motditems"=>"How many items should be shown on the motdlist,int",
 
@@ -343,7 +343,7 @@ if ($op == "") {
 		"Companions/Mercenaries,title",
 		"enablecompanions"=>"Enable the usage of companions,bool",
 		"companionsallowed"=>"How many companions are allowed per player,int",
-		"Modules my alter this value on a per player basis!,note",
+		"Modules may alter this value on a per player basis!,note",
 		"companionslevelup"=>"Are companions allowed to level up?,bool",
 
 		"Bank Settings,title",
