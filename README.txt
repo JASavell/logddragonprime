@@ -133,3 +133,4 @@ Once you have things configured to your liking, you should go back to the
 manage modules page and ACTIVATE any modules that you want to have running.
 
 Good luck and enjoy your new LotGD server!
+peace.
