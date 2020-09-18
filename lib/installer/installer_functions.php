@@ -2,10 +2,10 @@
 function create_db($dbname){
 	output("`n`2Attempting to create your database...`n");
 	$sql = "CREATE DATABASE $dbname";
-	mysql_query($sql);
-	$error = mysql_error();
+	mysqli_query($sql);
+	$error = mysqli_error();
 	if ($error == ""){
-		if (mysql_select_db($dbname)){
+		if (mysqli_select_db($dbname)){
 			output("`@Success!`2  I was able to create the database and connect to it!`n");
 		}else{
 			output("`\$It seems I was not successful.`2  I didn't get any errors trying to create the database, but I was not able to connect to it.");
